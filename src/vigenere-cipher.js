@@ -41,6 +41,36 @@ class VigenereCipheringMachine {
               } else if (v >= keyArray.length) {
                 for (; v >= keyArray.length; v++){
                   v = i + count - keyArray.length;
+                  if (v>= keyArray.length){
+                    v = v - keyArray.length;
+                    if(v>=keyArray.length){
+                        v = v - keyArray.length;
+                        if(v>=keyArray.length){
+                            v = v - keyArray.length;
+                            if(v>=keyArray.length){
+                                v = v - keyArray.length;
+                                if(v>=keyArray.length){
+                                    v = v - keyArray.length;
+                                    if(v>=keyArray.length){
+                                      v = v - keyArray.length;
+                                      if(v>=keyArray.length){
+                                        v = v - keyArray.length;
+                                        if(v>=keyArray.length){
+                                          v = v - keyArray.length;
+                                          if(v>=keyArray.length){
+                                            v = v - keyArray.length;
+                                            if(v>=keyArray.length){
+                                              v = v - keyArray.length;
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                              }
+                          }
+                      }
+                  }
                   keyString.push(keyArray[v]);                                     
                   break
                 }
@@ -172,12 +202,45 @@ class VigenereCipheringMachine {
               } else if (v >= keyArray.length) {
                 for (; v >= keyArray.length; v++){
                   v = i + count - keyArray.length;
-                  keyString.push(keyArray[v]);                              
+                  if (v>= keyArray.length){
+                    v = v - keyArray.length;
+                    if(v>=keyArray.length){
+                        v = v - keyArray.length;
+                        if(v>=keyArray.length){
+                            v = v - keyArray.length;
+                            if(v>=keyArray.length){
+                                v = v - keyArray.length;
+                                if(v>=keyArray.length){
+                                    v = v - keyArray.length;
+                                    if(v>=keyArray.length){
+                                      v = v - keyArray.length;
+                                      if(v>=keyArray.length){
+                                        v = v - keyArray.length;
+                                        if(v>=keyArray.length){
+                                          v = v - keyArray.length;
+                                          if(v>=keyArray.length){
+                                            v = v - keyArray.length;
+                                            if(v>=keyArray.length){
+                                              v = v - keyArray.length;
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                              }
+                          }
+                      }
+                  }
+                  keyString.push(keyArray[v]);                                     
                   break
-                }                
+                }
+                
               }
+
           }          
     }
+   
 
       let keyString1 = keyString.join(''); 
 
